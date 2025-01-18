@@ -1,0 +1,13 @@
+{
+    "name": "custom-inventory-start",
+    "version": "0.1.0",
+    "factorio_version": "2.0",
+    "dependencies": [
+        "base >= 2.0"
+    ],
+    "title": "Custom Inventory Start",
+    "description": "Adds basic items to the startup inventory",
+    "author": "YokazeRue",
+    "contact": "https://github.com/yokaze/custom-inventory-start",
+    "homepage": "https://github.com/yokaze/custom-inventory-start"
+}
