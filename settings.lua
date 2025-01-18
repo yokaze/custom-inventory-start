@@ -1,10 +1,15 @@
 utility = require("utility")
 
-orders = {
-	["steel-chest"] = "a[items]-c[steel-chest]",
-	["iron-plate"] = "a[smelting]-a[iron-plate]",
-	["copper-plate"] = "a[smelting]-b[copper-plate]",
-}
+-- https://wiki.factorio.com/Tutorial:Mod_settings
+data:extend({
+	{
+		type = "bool-setting",
+		name = utility.settings_clear_inventory,
+		setting_type = "startup",
+		default_value = false,
+		order = "a",
+	},
+})
 
 for _, item in ipairs(utility.items) do
 	local amount = 0
@@ -19,7 +24,7 @@ for _, item in ipairs(utility.items) do
 			setting_type = "startup",
 			default_value = amount,
 			minimum_value = 0,
-			order = orders[item],
+			order = utility.orders[item],
 		},
 	})
 end
