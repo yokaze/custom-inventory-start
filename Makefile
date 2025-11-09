@@ -30,3 +30,7 @@ package: clean format
 .PHONY: install
 install: package
 	cp bin/$(ARCHIVE_NAME).zip $${HOME}'/Library/Application Support/factorio/mods'/$(ARCHIVE_NAME).zip
+
+.PHONY: go
+go:
+	open $${HOME}'/Library/Application Support/factorio/mods'

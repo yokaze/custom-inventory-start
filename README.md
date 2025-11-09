@@ -4,12 +4,18 @@ The number of each item can be configured in settings.
 
 Following items are supported:
 
+- Armor
+    - None
+    - Power armor (+ startup eqipment)
+    - Power armor MK2 (+ startup eqipment)
 - Logistics
     - Steel chest
     - Transport belt
     - Underground belt
     - Splitter
     - Inserter
+    - Long-handed inserter
+    - Fast inserter
     - Small electric pole
     - Medium electric pole
     - Big electric pole

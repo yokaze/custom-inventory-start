@@ -1,4 +1,8 @@
 settings_clear_inventory = "yokaze-initial-clear-inventory"
+settings_initial_armor = "yokaze-initial-armor"
+settings_initial_armor_none = "None"
+settings_initial_armor_mk1 = "Power armor"
+settings_initial_armor_mk2 = "Power armor MK2"
 
 items = {
 	"steel-chest",
@@ -6,6 +10,8 @@ items = {
 	"underground-belt",
 	"splitter",
 	"inserter",
+	"long-handed-inserter",
+	"fast-inserter",
 	"small-electric-pole",
 	"medium-electric-pole",
 	"big-electric-pole",
@@ -42,7 +48,7 @@ items = {
 
 orders = {}
 for k, v in ipairs(items) do
-	orders[v] = string.format("b%02d", k)
+	orders[v] = string.format("c%02d", k)
 end
 
 amounts = {
@@ -59,4 +65,8 @@ return {
 	items = items,
 	orders = orders,
 	settings_clear_inventory = settings_clear_inventory,
+	settings_initial_armor = settings_initial_armor,
+	settings_initial_armor_none = settings_initial_armor_none,
+	settings_initial_armor_mk1 = settings_initial_armor_mk1,
+	settings_initial_armor_mk2 = settings_initial_armor_mk2,
 }

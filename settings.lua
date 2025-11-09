@@ -11,6 +11,21 @@ data:extend({
 	},
 })
 
+data:extend({
+	{
+		type = "string-setting",
+		name = utility.settings_initial_armor,
+		setting_type = "startup",
+		default_value = utility.settings_initial_armor_none,
+		allowed_values = {
+			utility.settings_initial_armor_none,
+			utility.settings_initial_armor_mk1,
+			utility.settings_initial_armor_mk2,
+		},
+		order = "b",
+	},
+})
+
 for _, item in ipairs(utility.items) do
 	local amount = 0
 	if utility.amounts[item] then
