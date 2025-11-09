@@ -6,8 +6,8 @@ Following items are supported:
 
 - Armor
     - None
-    - Power armor (+ startup eqipment)
-    - Power armor MK2 (+ startup eqipment)
+    - Power armor (+ startup equipment)
+    - Power armor MK2 (+ startup equipment)
 - Logistics
     - Steel chest
     - Transport belt
