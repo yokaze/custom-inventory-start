@@ -7,7 +7,17 @@ data:extend({
 		name = utility.settings_clear_inventory,
 		setting_type = "startup",
 		default_value = false,
-		order = "a",
+		order = "a1",
+	},
+})
+
+data:extend({
+	{
+		type = "int-setting",
+		name = utility.settings_extra_inventory_slots,
+		setting_type = "startup",
+		default_value = 0,
+		order = "a2",
 	},
 })
 

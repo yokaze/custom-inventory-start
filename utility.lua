@@ -1,4 +1,5 @@
 settings_clear_inventory = "yokaze-initial-clear-inventory"
+settings_extra_inventory_slots = "yokaze-initial-extra-inventory-slots"
 settings_initial_armor = "yokaze-initial-armor"
 settings_initial_armor_none = "None"
 settings_initial_armor_mk1 = "Power armor"
@@ -12,6 +13,7 @@ items = {
 	"inserter",
 	"long-handed-inserter",
 	"fast-inserter",
+	"bulk-inserter",
 	"small-electric-pole",
 	"medium-electric-pole",
 	"big-electric-pole",
@@ -43,7 +45,9 @@ items = {
 	"electric-furnace",
 	"assembling-machine-2",
 	"lab",
+	"speed-module",
 	"efficiency-module",
+	"productivity-module",
 }
 
 orders = {}
@@ -65,6 +69,7 @@ return {
 	items = items,
 	orders = orders,
 	settings_clear_inventory = settings_clear_inventory,
+	settings_extra_inventory_slots = settings_extra_inventory_slots,
 	settings_initial_armor = settings_initial_armor,
 	settings_initial_armor_none = settings_initial_armor_none,
 	settings_initial_armor_mk1 = settings_initial_armor_mk1,
