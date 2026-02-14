@@ -16,6 +16,7 @@ Following items are supported:
     - Inserter
     - Long-handed inserter
     - Fast inserter
+    - Bulk inserter
     - Small electric pole
     - Medium electric pole
     - Big electric pole
@@ -48,4 +49,6 @@ Following items are supported:
     - Electric furnace
     - Assembling machine 2
     - Lab
+    - Speed module
     - Efficiency module
+    - Productivity module
